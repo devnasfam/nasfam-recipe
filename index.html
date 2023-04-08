@@ -180,7 +180,15 @@ class Recipe extends React.Component {
   
   let intext = document.querySelector(".intext");
 
+  let intext2 = document.querySelector(".intext2");
+
   intext.innerHTML=data.instructions;
+
+  data.extendedIngredients.forEach(ingredient => {
+
+     intext2.innerHTML+=ingredient.original;
+
+    });
 
      // foot.style.display="none";
 
@@ -402,16 +410,27 @@ class Recipe extends React.Component {
 
           <div className="texthead">
 
+          Ingridients
+
+          </div>
+
+           <div className="intext2">
+
+           
+
+          </div>
+
+          <div className="texthead">
+
           Instructions
 
           </div>
 
            <div className="intext">
 
-
+           
 
           </div>
-
           {/*<a href={data.strYoutube}>
 
           <div className="inyoutube">
