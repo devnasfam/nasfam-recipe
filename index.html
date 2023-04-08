@@ -177,6 +177,10 @@ class Recipe extends React.Component {
   let head = document.querySelector(".head");
 
   let recont = document.querySelector(".recipe_cont");
+  
+  let intext = document.querySelector(".intext");
+
+  intext.innerHTML=data.instructions;
 
      // foot.style.display="none";
 
@@ -404,7 +408,7 @@ class Recipe extends React.Component {
 
            <div className="intext">
 
-           {data.instructions}
+
 
           </div>
 
