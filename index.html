@@ -113,6 +113,7 @@ class Recipe extends React.Component {
         if (data && data.meals && data.meals.length > 0) {
 
           this.setState({ data: data.meals[0], error: null, isLoading: false, isClicked:false });
+          instruc.style.borderBottom="2.5px solid dodgerblue";
 
         } else {
 
@@ -140,7 +141,7 @@ class Recipe extends React.Component {
 
    video.style.border="none";
 
-   instruc.style.borderBottom="2.5px solid dodgerblue";
+
 
   }
 
@@ -706,7 +707,7 @@ class Search extends React.Component{
 
       <div 
 
-            style="background:url(https://i.postimg.cc/k4FGyV0k/images-64-removebg-preview.png);background-size:cover;"
+            style="background:dodgerblue url(https://i.postimg.cc/k4FGyV0k/images-64-removebg-preview.png);background-size:cover;"
 
             class="not_found">
 
