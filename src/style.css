@@ -12,19 +12,21 @@ html, body {
 }
 main{
     width:100vw;
-    height:100vh;
+    height:100%;
     background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNPiOSyEtdYKIjRiuc5w_XT11giDqNzJGF_A&usqp=CAU);
     background-size:cover;
     overflow:hidden;
+    position: absolute;
 }
 #root{
     width:100vw;
-    height:100vh;
+    height:100%;
     background:rgba(0,0,0,.3);
     backdrop-filter:blur(5px);
     overflow:hidden;
     color:dodgerblue;
     color:#fff;
+    position: absolute;
 }
 .head{
     width:100%;
