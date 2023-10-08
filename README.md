@@ -16,4 +16,4 @@ Welcome to the NASFAM Recipe Site, where you can explore a variety of delicious 
 5. **Search for Recipes:** Use keywords to find specific recipes.
 
 ## Explore Now!
-Embark on a culinary journey at [NASFAM Recipe Site](https://nasfam-recipe.netlify.app). Happy cooking! 🍳🥗🍰
+Embark on a culinary journey at [NASFAM Recipe Site](https://nasfam-recipe.vercel.app/). Happy cooking! 🍳🥗🍰
