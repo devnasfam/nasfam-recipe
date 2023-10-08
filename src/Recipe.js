@@ -323,7 +323,7 @@ class Search extends Component{
       searches.innerHTML = data.meals.map((meal,i) => `
         <li>
           <div 
-            style="background:dodgerblue url(${meal.strMealThumb});background-size:cover;"
+            style="background:#494560 url(${meal.strMealThumb});background-size:cover;"
             class="s_img">
           </div>
           <div class="s_name">
