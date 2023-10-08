@@ -321,7 +321,7 @@ class Search extends Component{
   .then(data => {
     if (data && data.meals && data.meals.length > 0) {
       searches.innerHTML = data.meals.map((meal,i) => `
-        <li>
+        <li className="slists">
           <div 
             style="background:#494560 url(${meal.strMealThumb});background-size:cover;"
             class="s_img">
