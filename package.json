@@ -12,11 +12,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-    // Add other dependencies as needed
   },
   "devDependencies": {
     "react-scripts": "latest"
-    // Add other development dependencies as needed
   },
   "keywords": ["Ramadan", "Recipe", "Cooking", "Food", "Iftar", "Suhoor"],
   "author": "Your Name",
