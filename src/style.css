@@ -455,8 +455,8 @@ i.fa{
 }
 .result_cont{
     width:100%;
-    height:calc(100vh - 75px);
-    margin-top:65px;
+    height:calc(100vh - 78px);
+    margin-top:70px;
     padding:10px 0;
     padding-top:0;
     overflow:scroll;
@@ -698,7 +698,4 @@ i.fa{
     font-size:18px;
     font-weight:bold;
 }
-}
-.slist:last-child{
-    margin-bottom:20px;
 }
