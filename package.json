@@ -17,11 +17,11 @@
     "react-scripts": "latest"
   },
   "keywords": ["Ramadan", "Recipe", "Cooking", "Food", "Iftar", "Suhoor"],
-  "author": "Your Name",
-  "homepage": "https://your-recipe-app-url.com/",
+  "author": "Dev Nasfam",
+  "homepage": "https://nasfam-recipe.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/ramadan-recipe-app.git"
+    "url": "https://github.com/devnasfam/nasfam-recipe.git"
   },
   "license": "MIT",
   "meta": {
