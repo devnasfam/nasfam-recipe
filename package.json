@@ -1,0 +1,34 @@
+{
+  "name": "ramadan-recipe-app",
+  "version": "1.0.0",
+  "description": "Explore delicious Ramadan recipes with videos and tutorials. Discover a variety of mouthwatering dishes for your Iftar and Suhoor meals. Find cooking inspiration for the holy month.",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+    // Add other dependencies as needed
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+    // Add other development dependencies as needed
+  },
+  "keywords": ["Ramadan", "Recipe", "Cooking", "Food", "Iftar", "Suhoor"],
+  "author": "Your Name",
+  "homepage": "https://your-recipe-app-url.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ramadan-recipe-app.git"
+  },
+  "license": "MIT",
+  "meta": {
+    "viewport": "width=device-width, initial-scale=1.0, user-scalable=no",
+    "robots": "index, follow",
+    "theme-color": "#ffffff"
+  }
+}
