@@ -10,7 +10,7 @@ html, body {
   height: 100%;
   margin: 0;
 }
-::-webkit-scroll-bar{
+::-webkit-scrollbar{
   width:0;
 }
 main{
